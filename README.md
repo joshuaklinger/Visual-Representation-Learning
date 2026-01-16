@@ -3,6 +3,7 @@ A Deep Learning Model trained on the ModelNet40 dataset to diffuse point clouds 
 
 
 Download the dataset via:
+
 from torch_geometric.datasets import ModelNet
 dataset = ModelNet(root="data/ModelNet40", name='40', train=True)
 test_dataset = ModelNet(root="data/ModelNet40", name='40', train=False)
